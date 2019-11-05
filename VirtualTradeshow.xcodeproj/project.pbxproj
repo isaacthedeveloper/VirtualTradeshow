@@ -3,27 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		451B08AA2371FA61007E19E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451B08A92371FA61007E19E1 /* AppDelegate.swift */; };
 		451B08AC2371FA61007E19E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451B08AB2371FA61007E19E1 /* SceneDelegate.swift */; };
-		451B08AE2371FA61007E19E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451B08AD2371FA61007E19E1 /* ViewController.swift */; };
+		451B08AE2371FA61007E19E1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451B08AD2371FA61007E19E1 /* LoginViewController.swift */; };
 		451B08B12371FA61007E19E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 451B08AF2371FA61007E19E1 /* Main.storyboard */; };
 		451B08B32371FA63007E19E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 451B08B22371FA63007E19E1 /* Assets.xcassets */; };
 		451B08B62371FA63007E19E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 451B08B42371FA63007E19E1 /* LaunchScreen.storyboard */; };
+		457C0C7923722E5800A9E353 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457C0C7823722E5800A9E353 /* User.swift */; };
+		458B530023720C7D00B45647 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 458B52FF23720C7D00B45647 /* GoogleService-Info.plist */; };
+		45F2EE2123720571009F884A /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F2EE2023720571009F884A /* SignupViewController.swift */; };
+		59EA72D83EED0F64F7A29449 /* Pods_VirtualTradeshow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5739A39326963B89F08C9401 /* Pods_VirtualTradeshow.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2ABC5D45EDF3F30074E40C83 /* Pods-VirtualTradeshow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualTradeshow.debug.xcconfig"; path = "Target Support Files/Pods-VirtualTradeshow/Pods-VirtualTradeshow.debug.xcconfig"; sourceTree = "<group>"; };
 		451B08A62371FA61007E19E1 /* VirtualTradeshow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirtualTradeshow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		451B08A92371FA61007E19E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		451B08AB2371FA61007E19E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		451B08AD2371FA61007E19E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		451B08AD2371FA61007E19E1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		451B08B02371FA61007E19E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		451B08B22371FA63007E19E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		451B08B52371FA63007E19E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		451B08B72371FA63007E19E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		457C0C7823722E5800A9E353 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		458B52FF23720C7D00B45647 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		45F2EE2023720571009F884A /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		5739A39326963B89F08C9401 /* Pods_VirtualTradeshow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VirtualTradeshow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E8AD13135A7354C8921D15E /* Pods-VirtualTradeshow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualTradeshow.release.xcconfig"; path = "Target Support Files/Pods-VirtualTradeshow/Pods-VirtualTradeshow.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59EA72D83EED0F64F7A29449 /* Pods_VirtualTradeshow.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3AF39B465F7900FC2AC73230 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2ABC5D45EDF3F30074E40C83 /* Pods-VirtualTradeshow.debug.xcconfig */,
+				9E8AD13135A7354C8921D15E /* Pods-VirtualTradeshow.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		451B089D2371FA61007E19E1 = {
 			isa = PBXGroup;
 			children = (
 				451B08A82371FA61007E19E1 /* VirtualTradeshow */,
 				451B08A72371FA61007E19E1 /* Products */,
+				3AF39B465F7900FC2AC73230 /* Pods */,
+				EBE5F4C79ECE579DD3DEFCDC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +80,24 @@
 			children = (
 				451B08A92371FA61007E19E1 /* AppDelegate.swift */,
 				451B08AB2371FA61007E19E1 /* SceneDelegate.swift */,
-				451B08AD2371FA61007E19E1 /* ViewController.swift */,
+				451B08AD2371FA61007E19E1 /* LoginViewController.swift */,
+				45F2EE2023720571009F884A /* SignupViewController.swift */,
+				457C0C7823722E5800A9E353 /* User.swift */,
 				451B08AF2371FA61007E19E1 /* Main.storyboard */,
 				451B08B22371FA63007E19E1 /* Assets.xcassets */,
 				451B08B42371FA63007E19E1 /* LaunchScreen.storyboard */,
 				451B08B72371FA63007E19E1 /* Info.plist */,
+				458B52FF23720C7D00B45647 /* GoogleService-Info.plist */,
 			);
 			path = VirtualTradeshow;
+			sourceTree = "<group>";
+		};
+		EBE5F4C79ECE579DD3DEFCDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5739A39326963B89F08C9401 /* Pods_VirtualTradeshow.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 451B08BA2371FA63007E19E1 /* Build configuration list for PBXNativeTarget "VirtualTradeshow" */;
 			buildPhases = (
+				271B00413D5D3E16CA516171 /* [CP] Check Pods Manifest.lock */,
 				451B08A22371FA61007E19E1 /* Sources */,
 				451B08A32371FA61007E19E1 /* Frameworks */,
 				451B08A42371FA61007E19E1 /* Resources */,
+				B087C12257FD7EABA810864C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				451B08B62371FA63007E19E1 /* LaunchScreen.storyboard in Resources */,
+				458B530023720C7D00B45647 /* GoogleService-Info.plist in Resources */,
 				451B08B32371FA63007E19E1 /* Assets.xcassets in Resources */,
 				451B08B12371FA61007E19E1 /* Main.storyboard in Resources */,
 			);
@@ -133,13 +169,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		271B00413D5D3E16CA516171 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VirtualTradeshow-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B087C12257FD7EABA810864C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VirtualTradeshow/Pods-VirtualTradeshow-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VirtualTradeshow/Pods-VirtualTradeshow-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VirtualTradeshow/Pods-VirtualTradeshow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		451B08A22371FA61007E19E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				451B08AE2371FA61007E19E1 /* ViewController.swift in Sources */,
+				451B08AE2371FA61007E19E1 /* LoginViewController.swift in Sources */,
 				451B08AA2371FA61007E19E1 /* AppDelegate.swift in Sources */,
+				45F2EE2123720571009F884A /* SignupViewController.swift in Sources */,
+				457C0C7923722E5800A9E353 /* User.swift in Sources */,
 				451B08AC2371FA61007E19E1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +362,7 @@
 		};
 		451B08BB2371FA63007E19E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ABC5D45EDF3F30074E40C83 /* Pods-VirtualTradeshow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +381,7 @@
 		};
 		451B08BC2371FA63007E19E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E8AD13135A7354C8921D15E /* Pods-VirtualTradeshow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
