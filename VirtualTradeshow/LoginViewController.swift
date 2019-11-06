@@ -22,15 +22,19 @@ class LoginViewController: UIViewController {
         // Setup button
         submitButton.layer.cornerRadius = 20.0
         signupButton.layer.cornerRadius = 20.0
-        
-        // Authenticaiton State
-        Auth.auth().addStateDidChangeListener() { auth, user in
-          if user != nil {
-            self.performSegue(withIdentifier: "Login", sender: nil)
-            self.emailTextField.text = nil
-            self.passwordTextField.text = nil
-          }
+
+        Auth.auth().addStateDidChangeListener { (auth, user) in
+            if Auth.auth().currentUser != nil {
+                // User is signed in
+                self.performSegue(withIdentifier: "Login", sender: nil)
+                self.emailTextField.text = nil
+                self.passwordTextField.text = nil
+            } else {
+                // No user is signed in
+                self.becomeFirstResponder()
+            }
         }
+        
     }
     
     // MARK: - Actions

@@ -42,20 +42,15 @@ class SignupViewController: UIViewController {
             let password        = passwordTextField.text,
             let confirmPassword = confirmPasswordTextField.text
             else { return }
-        Auth.auth().createUser(withEmail: email, password: password) { (result, error) in
-            guard let user = result?.user, error == nil else { return }
-            Auth.auth().signIn(withEmail: email, password: password)
-            print("*** \(user.email) created successfully")
-            self.dismiss(animated: true, completion: nil)
+        
+        Auth.auth().createUser(withEmail: email, password: password) { (user, error) in
+            if error == nil {
+                Auth.auth().signIn(withEmail: email, password: password)
+                
+            }
         }
+
         
     }
 }
-/*
- Auth.auth().createUser(withEmail: email, password: password) { (user, error) in
-            if error == nil {
-                Auth.auth().signIn(withEmail: email, password: password)
-            }
-        }
-        
- */
+

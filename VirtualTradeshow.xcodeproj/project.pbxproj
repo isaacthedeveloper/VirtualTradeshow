@@ -15,6 +15,8 @@
 		451B08B62371FA63007E19E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 451B08B42371FA63007E19E1 /* LaunchScreen.storyboard */; };
 		457C0C7923722E5800A9E353 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457C0C7823722E5800A9E353 /* User.swift */; };
 		458B530023720C7D00B45647 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 458B52FF23720C7D00B45647 /* GoogleService-Info.plist */; };
+		45D1DCF4237372F1004AE714 /* LandingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D1DCF3237372F1004AE714 /* LandingTableViewController.swift */; };
+		45D1DCF623737DDF004AE714 /* DetailVCTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D1DCF523737DDF004AE714 /* DetailVCTest.swift */; };
 		45F2EE2123720571009F884A /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F2EE2023720571009F884A /* SignupViewController.swift */; };
 		59EA72D83EED0F64F7A29449 /* Pods_VirtualTradeshow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5739A39326963B89F08C9401 /* Pods_VirtualTradeshow.framework */; };
 /* End PBXBuildFile section */
@@ -31,6 +33,8 @@
 		451B08B72371FA63007E19E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		457C0C7823722E5800A9E353 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		458B52FF23720C7D00B45647 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		45D1DCF3237372F1004AE714 /* LandingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingTableViewController.swift; sourceTree = "<group>"; };
+		45D1DCF523737DDF004AE714 /* DetailVCTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVCTest.swift; sourceTree = "<group>"; };
 		45F2EE2023720571009F884A /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		5739A39326963B89F08C9401 /* Pods_VirtualTradeshow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VirtualTradeshow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E8AD13135A7354C8921D15E /* Pods-VirtualTradeshow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualTradeshow.release.xcconfig"; path = "Target Support Files/Pods-VirtualTradeshow/Pods-VirtualTradeshow.release.xcconfig"; sourceTree = "<group>"; };
@@ -83,6 +87,8 @@
 				451B08AD2371FA61007E19E1 /* LoginViewController.swift */,
 				45F2EE2023720571009F884A /* SignupViewController.swift */,
 				457C0C7823722E5800A9E353 /* User.swift */,
+				45D1DCF3237372F1004AE714 /* LandingTableViewController.swift */,
+				45D1DCF523737DDF004AE714 /* DetailVCTest.swift */,
 				451B08AF2371FA61007E19E1 /* Main.storyboard */,
 				451B08B22371FA63007E19E1 /* Assets.xcassets */,
 				451B08B42371FA63007E19E1 /* LaunchScreen.storyboard */,
@@ -220,6 +226,8 @@
 				451B08AA2371FA61007E19E1 /* AppDelegate.swift in Sources */,
 				45F2EE2123720571009F884A /* SignupViewController.swift in Sources */,
 				457C0C7923722E5800A9E353 /* User.swift in Sources */,
+				45D1DCF4237372F1004AE714 /* LandingTableViewController.swift in Sources */,
+				45D1DCF623737DDF004AE714 /* DetailVCTest.swift in Sources */,
 				451B08AC2371FA61007E19E1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
